@@ -1,0 +1,225 @@
+body
+{
+    margin: 0px;
+    overflow-y: hidden;
+    font-family: Arial;
+    background-color: blue;
+    color: white;
+}
+
+#header
+{
+    border-top: 20px black;
+    background-color: white;
+    height: 100px;
+    padding: 20px 20px 20px;
+    position: relative;
+}
+
+#main-container
+{
+    height: calc(100vh - 162px);
+}
+
+#main-left
+{
+    width: 300px;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    border: 1px solid red;
+}
+
+#main-center
+{
+    width: 500px;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    border: 1px solid red; 
+}
+
+#main-right 
+{
+    width: 660px;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    border: 1px solid red; 
+}
+
+#nav
+{
+    margin-top: 50px;
+}
+
+
+ul
+{
+    list-style: none;
+}
+
+#nav li {
+    margin-bottom: 30px;
+    margin-left: -20px;
+}
+
+#teams
+{
+    font-family:  Hand, cursive;
+    font-size: 35px;
+    color: black;
+    margin-left: 128px;
+}
+
+#heroInfo
+{
+    color: white;
+    font-family: hand, cursive;
+    margin-left: 4px;
+    font-size: 200%;
+}
+
+.navtext
+{
+    color: yellow;
+    font-family: hand, cursive;
+    margin-left: 4px;
+}
+
+a
+{
+    color: darkblue;
+    text-decoration: none;
+    font-size: 200%;
+    margin-left: 3px;
+    font-family: hand, cursive;
+}
+
+a:hover
+{
+    color: yellow;
+}
+
+.imageInfo
+{
+    height: 375px;
+    width: 396px;
+    margin-left: 3px;
+}
+
+.image
+{
+    height: 375px;
+    width: 396px;
+    margin-left: 3px;
+}
+
+.image:hover
+{
+    opacity: 0.7;
+}
+
+#logo
+{
+    height: 71px;
+    width: 122px;
+    margin-left: 56px;
+    margin-top: -10px;
+}
+
+#logo:hover
+{
+    opacity: 0.5;
+}
+
+#titelName
+{
+    margin-top: -30px;
+    margin-left: -10px;
+    color: #000;
+    font-style: oblique;
+}
+
+#titelName:hover
+{
+ color: blue;
+}
+
+#singleHeroName
+{
+    color: white;
+    font-size: 200%;
+    font-family: hand, cursive;
+}
+
+#teamNameCss
+{
+    font-size: 174%;
+    margin-top: 20px;
+    color: white;
+    font-family: hand, cursive;
+}
+
+#teamNameCss:hover
+{
+    color: darkblue;
+}
+
+#playerChoose
+{
+    color: white;
+    font-size: 453%;
+    text-align: center;
+}
+
+#teamImage
+{
+    height: 250px;
+    width: 240px;
+}
+
+#teamImage:hover
+{
+    opacity: 0.7;
+}
+
+.infoButton 
+{
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    margin-left: 380px;
+}
+
+.changeColor:nth-child(even) {
+    background-color: blue;
+    width: 483px;
+    margin-left: -40px;
+}
+
+.changeColor:nth-child(odd) {
+    background-color: white;
+    width: 483px;
+    margin-left: -40px;
+}
+
+#message
+{
+    font-family:  Hand, cursive;
+    font-size: 35px;
+    color: black;
+    margin-top: 20px;
+}
+
+#submitMessage 
+{
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: red;
+    width: 100px;
+    height: 50px;   
+}
+
